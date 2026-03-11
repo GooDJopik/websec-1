@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculatorContainer">
+    <div class="inputGroup">
+        <div class="inputBlock">
+            <input type="number" id="firstNumber" class="field">
+            <div class="fieldError" id="firstError"></div>
+        </div>
+
+        <select id="mathOperator" class="field">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <div class="inputBlock">
+            <input type="number" id="secondNumber" class="field">
+            <div class="fieldError" id="secondError"></div>
+        </div>
+    </div>
+    <div class="buttonWrapper">
+        <button id="computeBtn" class="field">подсчитать</button>
+    </div>
+    <div id="outputDisplay" class="field"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
